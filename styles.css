@@ -1,0 +1,115 @@
+body {
+    background-image: url('/images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.component-div {
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-picture {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.order-summary {
+    width: 90%;
+    padding: 5px;
+}
+
+.order-summary h1{
+    color: rgb(50, 51, 58);
+    font-size: 20px;
+}
+
+.order-summary p {
+    color: rgb(98, 100, 109);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.annual-plan {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    padding: 5px 5px;
+    background: rgb(238, 238, 238);
+    border-radius: 20px;
+    margin: 10px 20px;
+}
+
+.plan-price {
+    margin-right: 20px;
+    text-align: left;
+}
+
+.plan-price h3 {
+    color: rgb(50, 51, 58);
+    margin-bottom: 1px;
+    font-size: 14px;
+}
+
+.plan-price p {
+    color: rgb(98, 100, 109);
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.annual-plan button {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.annual-plan button:hover {
+    text-decoration: none;
+}
+
+.confirmation-buttons {
+    width: 90%;
+    padding: 5px;
+}
+
+.payment-button, .cancel-button {
+    background: white;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(98, 100, 109);
+}
+
+.payment-button {
+    margin-bottom: 5px;
+}
+
+.cancel-button {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.payment-button:hover, .cancel-button:hover  {
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 10px 5px rgba(0, 0, 255, 0.24);
+}
+
+.attribution {
+    padding: 5px;
+}
